@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="description" content="My first php page" />
     <meta name="keywords" content="ics2o" />
-    <meta name="author" content="Mr. Atkinson" />
+    <meta name="author" content="shuang xia" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
@@ -22,13 +22,16 @@
       
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">PHP and Form Data</span>
+          <span class="mdl-layout-title">area and circumference of a circle</span>
         </div>
       </header>
   
       <main class="mdl-layout__content" style="margin-left:75px;">
         <?php
-          echo "<h3>Hello,".$_POST['myname']."<h3>"; 
+          echo "<h3>the circumference is,".$_POST['diameter']*2*pi()."<h3>"; 
+        ?>
+        <?php
+          echo "<h3>the area is,".$_POST['diameter']**2*pi()."<h3>"; 
         ?>
       </main>
 

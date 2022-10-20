@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="description" content="My first php page" />
     <meta name="keywords" content="ics2o" />
-    <meta name="author" content="Mr. Atkinson" />
+    <meta name="author" content="shuang xia" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
@@ -22,7 +22,7 @@
       
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">PHP and Form Data</span>
+          <span class="mdl-layout-title">area and circumference of a circle</span>
         </div>
       </header>
   
@@ -30,8 +30,8 @@
         <!-- Simple Textfield -->
         <form method="post" name="whoareyou" action="handler.php">
           <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="myName" name="myname">
-            <label class="mdl-textfield__label" for="myName">What is your name?</label>
+            <input class="mdl-textfield__input" type="text" id="diameter" name="diameter">
+            <label class="mdl-textfield__label" for="diameter">What is the diameter?</label>
           </div>
           
           <div>
