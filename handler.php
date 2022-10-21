@@ -28,6 +28,9 @@
   
       <main class="mdl-layout__content" style="margin-left:75px;">
         <?php
+          $_POST['diameter']=$_POST['diameter']/2
+        ?>
+        <?php
           echo "<h3>the circumference is,".$_POST['diameter']*2*pi()."<h3>"; 
         ?>
         <?php
