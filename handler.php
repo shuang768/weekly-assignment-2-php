@@ -31,10 +31,10 @@
           $_POST['diameter']=$_POST['diameter']/2
         ?>
         <?php
-          echo "<h3>the circumference is,".$_POST['diameter']*2*pi()."<h3>"; 
+          echo "<h3>the circumference is".$_POST['diameter']*2*pi()."<h3>"; 
         ?>
         <?php
-          echo "<h3>the area is,".$_POST['diameter']**2*pi()."<h3>"; 
+          echo "<h3>the area is".$_POST['diameter']**2*pi()."<h3>"; 
         ?>
       </main>
 
