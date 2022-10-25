@@ -25,21 +25,27 @@
           <span class="mdl-layout-title">area and circumference of a circle</span>
         </div>
       </header>
-  
+        
       <main class="mdl-layout__content" style="margin-left:75px;">
         <!-- Simple Textfield -->
-        <form method="post" name="whoareyou" action="handler.php">
-          <div class="mdl-textfield mdl-js-textfield">
-            <input class="mdl-textfield__input" type="text" id="diameter" name="diameter">
-            <label class="mdl-textfield__label" for="diameter">What is the diameter?</label>
-          </div>
+        
+      <?php
+        do{
+        echo "<form method=\"post\" name=\"whoareyou\" action=\"handler.php\">\n";
+         echo "<div class=\"mdl-textfield mdl-js-textfield\">\n";
+          echo  "<input class=\"mdl-textfield__input\" type=\"text\" id=\"diameter\" name=\"diameter\">\n";
+           echo "<label class=\"mdl-textfield__label\" for=\"diameter\"> What is the diameter?</label>\n";
+         echo "</div>\n";
           
-          <div>
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+         echo "<div>\n";
+            echo "<button class=\"mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent\">
               Submit
-            </button>
-          </div>
-        </form>
+            </button>\n";
+         echo "</div>\n";
+        echo "</form>\n";
+            }
+            while (var_dump(is_int($diameter))==false or var_dump(is_float($diameter))==false);
+            ?>
       </main>
 
     </div>

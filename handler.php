@@ -27,14 +27,15 @@
       </header>
   
       <main class="mdl-layout__content" style="margin-left:75px;">
+        
         <?php
-          $_POST['diameter']=$_POST['diameter']/2
+          $_POST['diameter1']=$_POST['diameter']/2
         ?>
         <?php
-          echo "<h3>the circumference is".$_POST['diameter']*2*pi()."<h3>"; 
+          echo "<h3>the circumference of a circle with a diameter of ".$_POST['diameter']." is ".$_POST['diameter1']*2*pi()."<h3>"; 
         ?>
         <?php
-          echo "<h3>the area is".$_POST['diameter']**2*pi()."<h3>"; 
+          echo "<h3>the area of a circle with a diameter of ".$_POST['diameter']." is ".$_POST['diameter1']**2*pi()."<h3>"; 
         ?>
       </main>
 
