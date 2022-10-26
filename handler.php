@@ -1,3 +1,6 @@
+<?php if ( isset($_POST) && is_int($_POST['diameter']) && is_float($_POST['diameter']) ) : ?>
+
+
 <!DOCTYPE HTML>
 <html>
   
@@ -42,3 +45,12 @@
     </div>
   </body>
 </html>
+
+<?php else : ?>
+
+  <?php 
+  // Send them back to index.php?error=1
+   //header("Location:https://replit.com/@shuang768/weekly-assignment-2-php#index.php");
+  //echo "<meta http-equiv=\"refresh\" content=\"0\";url=https://replit.com/@shuang768/weekly-assignment-2-php#index.php>";
+  ?>
+<?php endif; ?>

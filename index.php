@@ -18,6 +18,11 @@
   </head>
   
   <body>
+
+    <?php if (isset($_GET) && $_GET['error'] == 1) {
+      echo "please enter a valid number";
+    }
+    ?>    
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       
       <header class="mdl-layout__header">
@@ -30,7 +35,6 @@
         <!-- Simple Textfield -->
         
       <?php
-        do{
         echo "<form method=\"post\" name=\"whoareyou\" action=\"handler.php\">\n";
          echo "<div class=\"mdl-textfield mdl-js-textfield\">\n";
           echo  "<input class=\"mdl-textfield__input\" type=\"text\" id=\"diameter\" name=\"diameter\">\n";
@@ -43,8 +47,6 @@
             </button>\n";
          echo "</div>\n";
         echo "</form>\n";
-            }
-            while (var_dump(is_int($diameter))==false or var_dump(is_float($diameter))==false);
             ?>
       </main>
 
