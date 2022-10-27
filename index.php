@@ -18,11 +18,10 @@
   </head>
   
   <body>
-
     <?php if (isset($_GET) && $_GET['error'] == 1) {
       echo "please enter a valid number";
     }
-    ?>    
+    ?> 
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       
       <header class="mdl-layout__header">
@@ -33,7 +32,6 @@
         
       <main class="mdl-layout__content" style="margin-left:75px;">
         <!-- Simple Textfield -->
-        
       <?php
         echo "<form method=\"post\" name=\"whoareyou\" action=\"handler.php\">\n";
          echo "<div class=\"mdl-textfield mdl-js-textfield\">\n";
