@@ -47,7 +47,7 @@
   </body>
 </html>
 
-<?php else : header("Location:http://ics2o.ca/~shuang/index.php?error=1"); ?>
+<?php else : header("Location:https://weekly-assignment-2-php.shuang768.repl.co?error=1"); ?>
 
 <?php
 // Send them back to index.php?error=1
