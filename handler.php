@@ -1,4 +1,4 @@
-<?php if ( isset($_POST['diameter']) && (is_numeric($_POST['diameter']) && $_POST['diameter']>=0) ): ?>
+<?php if ( isset($_POST['diameter']) && (is_numeric($_POST['diameter']) && $_POST['diameter']>0) ): ?>
 
 <!DOCTYPE HTML>
 <html>

@@ -36,7 +36,7 @@
           echo  "<input class=\"mdl-textfield__input\" type=\"text\" id=\"diameter\" name=\"diameter\">\n";
           echo "<label class=\"mdl-textfield__label\" for=\"diameter\"> What is the diameter?</label>\n";
           if (isset($_GET) && $_GET['error'] == 1) {
-            echo "<p class=\"variablecolour\">please enter a valid number</p>";
+            echo "<p class=\"variablecolour\">please enter a valid number (should be positive)</p>";
           }
           echo "</div>\n";
       ?>
